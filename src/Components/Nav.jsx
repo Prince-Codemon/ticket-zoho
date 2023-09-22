@@ -7,7 +7,7 @@ const Nav = () => {
      
     location.pathname!=='/sign-out' && ( 
           <div id="topmenu" style={{ display: "flex", flexDirection: "row", background: "#041C2C", color: "white", alignItems: "center" }}>
-              <div><Link to={'/'}><img src="logo.png" style={{ width: '150px' }} /></Link></div>
+              <div><Link to={'/'}><img src="logo.png" style={{ width: '150px' }}  alt='logo'/></Link></div>
               <div>Hello Søren List, CRM Nordic</div>
               <div style={{ flexGrow: 1 }}></div>
               <div><NavLink to="/units-in-stocks">Units In Stock</NavLink></div>
